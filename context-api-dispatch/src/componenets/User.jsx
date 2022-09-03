@@ -31,23 +31,24 @@ class User extends Component {
                     value => {
                         const { dispatch } = value;
                         return (
-                            <div className="app">
-                                <div className="container">
-                                    <div className='card mb-4'>
+                                <div className="container app">
+                                    <div className="row d-flex flex-column align-items-center">
+                                        <div className="col-md-8">
+                                        <div className='card mb-4'>
                                         <div className="card-header d-flex justify-content-between align-items-center">
                                             <h4 onClick={this.onClickEvent}>{name}</h4>
-
                                             <span onClick={this.onDeleteUser.bind(this, dispatch)}>Sil</span>
                                         </div>
                                         {isVisible ? (
-                                            <div className="card-body">
-                                                <p className='m-0 p-0'>{email}</p>
-                                                <p className='m-0 p-0'>{age}</p>
+                                            <div className="card-body" style={isVisible ? {backgroundColor: "rgb(163, 217, 255)", color: "black",  fontSize: "1.2rem"} : null}>
+                                                <p>Email: {email}</p>
+                                                <p>Age: {age}</p>
                                             </div>
                                         ) : null}
                                     </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
 
                         )
                     }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Navbar from './componenets/Navbar';
 import Users from './componenets/Users';
+import AddUser from './componenets/AddUser'
 
 class App extends Component {
 
@@ -10,6 +11,7 @@ class App extends Component {
       <div>
         <Navbar />
         <hr />
+        <AddUser/>
         <Users />
       </div>
     )
