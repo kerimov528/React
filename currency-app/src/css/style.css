@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #fff;
+    margin: auto;
+}
+
+.App h1 {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+select {
+    width: 311px;
+    height: 52px;
+    background: #ffffff;
+    box-shadow: 3px 3px 10px rgba(14, 87, 214, 0.26);
+    border-radius: 20px;
+    padding: 0.2rem;
+    text-align: center;
+    border: none;
+}
+
+.cal {
+    width: 685px;
+    height: 196px;
+    background: #ffffff;
+    box-shadow: 1px 1px 6px rgba(14, 87, 214, 0.26);
+    border-radius: 20px;
+}
+
+.amount-box {
+    width: 720px;
+    height: 196px;
+    background: #ffffff;
+    box-shadow: 1px 1px 6px rgba(14, 87, 214, 0.26);
+    border-radius: 20px;
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.amount-box h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
