@@ -30,7 +30,6 @@ const EmployeeList = () => {
         }
     }, [employees])
 
-
     return (
         <>
             <div className="table-title">

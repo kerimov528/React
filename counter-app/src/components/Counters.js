@@ -16,7 +16,7 @@ class Counters extends Component {
                     <Counter />
                     <Counter />
                     <Counter />
-                 </div>
+                </div>
             </div>
         )
     }
